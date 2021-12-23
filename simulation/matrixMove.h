@@ -1,0 +1,57 @@
+#ifndef _MATRIXMOVE_H
+#define _MATRIXMOVE_H
+
+extern void shift0(double ***a, double ***b, int m, int n, int q);
+extern double neightbour1(int m, int n, int q, int boundary, double ***a);
+extern void shift1(double ***a, double ***b, int m, int n, int q);
+extern double neightbour2(int m, int n, int q, int boundary, double ***a);
+extern void shift2(double ***a, double ***b, int m, int n, int q);
+extern void shift3(double ***a, double ***b, int m, int n, int q);
+extern double neightbour3(int m, int n, int q, int boundary, double ***a);
+extern void shift4(double ***a, double ***b, int m, int n, int q);
+extern double neightbour4(int m, int n, int q, int boundary, double ***a);
+extern void shift5(double ***a, double ***b, int m, int n, int q);
+extern double neightbour5(int m, int n, int q, int boundary, double ***a);
+extern void shift6(double ***a, double ***b, int m, int n, int q);
+extern double neightbour6(int m, int n, int q, int boundary, double ***a);
+extern void shift7(double ***a, double ***b, int m, int n, int q);
+extern double neightbour7(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift8(double ***a, double ***b, int m, int n, int q);
+extern double neightbour8(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift9(double ***a, double ***b, int m, int n, int q);
+extern double neightbour9(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift10(double ***a, double ***b, int m, int n, int q);
+extern double neightbour10(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift11(double ***a, double ***b, int m, int n, int q);
+extern double neightbour11(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift12(double ***a, double ***b, int m, int n, int q);
+extern double neightbour12(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift13(double ***a, double ***b, int m, int n, int q);
+extern double neightbour13(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift14(double ***a, double ***b, int m, int n, int q);
+extern double neightbour14(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift15(double ***a, double ***b, int m, int n, int q);
+extern double neightbour15(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift16(double ***a, double ***b, int m, int n, int q);
+extern double neightbour16(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift17(double ***a, double ***b, int m, int n, int q);
+extern double neightbour17(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift18(double ***a, double ***b, int m, int n, int q);
+extern double neightbour18(int m, int n, int q, int boundary1, int boundary2, double ***a);
+extern void shift19(double ***a, double ***b, int m, int n, int q);
+extern double neightbour19(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift20(double ***a, double ***b, int m, int n, int q);
+extern double neightbour20(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift21(double ***a, double ***b, int m, int n, int q);
+extern double neightbour21(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift22(double ***a, double ***b, int m, int n, int q);
+extern double neightbour22(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift23(double ***a, double ***b, int m, int n, int q);
+extern double neightbour23(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift24(double ***a, double ***b, int m, int n, int q);
+extern double neightbour24(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift25(double ***a, double ***b, int m, int n, int q);
+extern double neightbour25(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+extern void shift26(double ***a, double ***b, int m, int n, int q);
+extern double neightbour26(int m, int n, int q, int boundary1, int boundary2, int boundary3, double ***a);
+#endif
